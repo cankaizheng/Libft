@@ -6,13 +6,13 @@
 /*   By: cazheng <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/08 00:26:59 by cazheng           #+#    #+#             */
-/*   Updated: 2018/07/08 00:27:09 by cazheng          ###   ########.fr       */
+/*   Updated: 2018/07/10 18:03:56 by cazheng          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	ft_isspace(unsigned char c)
+int		ft_isspace(unsigned char c)
 {
 	if (c == ' ' || c == '\f' || c == '\n'
 	|| c == '\r' || c == '\t' || c == '\v')
